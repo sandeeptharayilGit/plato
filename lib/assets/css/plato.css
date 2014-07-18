@@ -13,7 +13,7 @@ body {
   box-shadow: none;
   line-height:10px;
 }
-
+ 
 .navbar-nav > .active > a {
   background-color: rgb(233, 233, 233);
 }
@@ -55,15 +55,30 @@ li {
 .aggregate-stats .stat {
   text-align: center;
   color: #5a5a5a;
-  font-size:55px;
-  line-height:70px;
+  font-size: 35px;
+  line-height: 35px;
+}
+.aggregate-stats .statSumm {
+  text-align: left;
+  color: #5a5a5a;
+  font-size: 21px;
+  line-height: 20px;
+}
+
+i.icon[rel=popoverwhite] {
+  font-size:23px;
+  color: white; 
 }
 
 i.icon[rel=popover] {
   font-size:23px;
-  color: #0088cc;
+  color: #428bca; 
 }
 
-.popover {
+.popover, .popoverwhite {
   z-index:100000;
+}
+
+.overview {
+padding-top: 3%;
 }
